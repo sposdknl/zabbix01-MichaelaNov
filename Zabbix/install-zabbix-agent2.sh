@@ -4,9 +4,9 @@
 sudo apt-get install -y net-tools
 
 # Stažení balíčku pro instalaci zabbix repo
-wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.0+debian12_all.deb
+sudo wget https://repo.zabbix.com/zabbix/7.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.0+debian12_all.deb
 # Instalace meta balíčku
-dpkg -i zabbix-release_latest_7.0+debian12_all.deb
+sudo dpkg -i zabbix-release_latest_7.0+debian12_all.deb
 
 # Aktualizace repository
 sudo apt-get update
